@@ -15,7 +15,7 @@ a:link{
 }
 
 .container{
-    width: 1366px;
+    width: 600px;
     margin: 2rem auto;
     background: grey;
     font-size: 0;
@@ -34,19 +34,20 @@ a:link{
 
 ul {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
 }
   
 li {
-    height: 20vh;
+    height: 120px;
     flex-grow: 1;
 }
   
 img {
     max-height: 100%;
     min-width: 100%;
-    object-fit: cover;
-    vertical-align: bottom;
+    /* object-fit: cover;
+    vertical-align:center; */
     cursor: pointer;
     border: 1px solid #000;
 } 
